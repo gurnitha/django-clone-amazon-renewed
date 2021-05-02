@@ -188,3 +188,11 @@ https://github.com/gurnitha/django-clone-amazon-renewed
 
         modified:   README.MD
         modified:   templates/adboard/login-adboard.html
+
+#### 8.3.19 MySQL Database - Create database
+
+        ...> mysql -u root
+        ...
+        mysql> CREATE DATABASE django_clone_amazon_renewed;
+        Query OK, 1 row affected (0.00 sec)
+        modified:   README.MD
