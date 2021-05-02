@@ -7,14 +7,15 @@ https://github.com/gurnitha/django-clone-amazon-renewed
 
 #### 1.1.1 Create project folders
 
-        ... CLONE-AMAZON> mkdir src
-        ... CLONE-AMAZON> cd src
-        ... CLONE-AMAZON\src> touch .gitignore
-        ... CLONE-AMAZON\src> touch README.md
-        ... CLONE-AMAZON\src> git init
-        ... CLONE-AMAZON\src> git add .
-        ... CLONE-AMAZON\src> git commit -m "1.1.1 Create project folders"
-        ... CLONE-AMAZON\src> tree /f
+        ... DJANGO-CLONE-AMAZON-RENEWED> mkdir src
+        ... DJANGO-CLONE-AMAZON-RENEWED> mkdir src
+        ... DJANGO-CLONE-AMAZON-RENEWED> cd src
+        ... DJANGO-CLONE-AMAZON-RENEWED\src> touch .gitignore
+        ... DJANGO-CLONE-AMAZON-RENEWED\src> touch README.md
+        ... DJANGO-CLONE-AMAZON-RENEWED\src> git init
+        ... DJANGO-CLONE-AMAZON-RENEWED\src> git add .
+        ... DJANGO-CLONE-AMAZON-RENEWED\src> git commit -m "1.1.1 Create project folders"
+        ... DJANGO-CLONE-AMAZON-RENEWED\src> tree /f
             ...
             E:.
                 .gitignore
@@ -27,4 +28,152 @@ https://github.com/gurnitha/django-clone-amazon-renewed
 #### 2.1.2 Create a new github repository
 
         https://github.com/gurnitha/django-clone-amazon-renewed
-        modified:   README.MD        
+        modified:   README.MD
+
+#### 2.2.3 Modified README.md 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
