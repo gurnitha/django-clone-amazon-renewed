@@ -63,3 +63,17 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         new file:   config/urls.py
         new file:   config/wsgi.py
         new file:   manage.py
+
+#### 5.1.7 Create django app called 'main'
+
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> mkdir app
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> mkdir app/main
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> python manage.py startapp main app/main
+        modified:   README.MD
+        new file:   app/main/__init__.py
+        new file:   app/main/admin.py
+        new file:   app/main/apps.py
+        new file:   app/main/migrations/__init__.py
+        new file:   app/main/models.py
+        new file:   app/main/tests.py
+        new file:   app/main/views.py
