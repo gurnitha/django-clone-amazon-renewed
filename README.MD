@@ -104,3 +104,9 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         modified:   config/urls.py
         new file:   templates/main/about.html
         new file:   templates/main/home.html
+
+#### 6.2.10 Linking the pages
+
+        modified:   README.MD
+        modified:   templates/main/about.html
+        modified:   templates/main/home.html

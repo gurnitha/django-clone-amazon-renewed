@@ -1,2 +1,20 @@
 <!-- templates/main/home.html -->
-<h1>Home page</h>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home | Clone Amazon</title>
+</head>
+<body style="padding-top:100px;">
+	<div style="width:600px; margin: 0 auto">
+		<nav style="width:500px;">
+			<ul>
+				<li><a href="{% url 'home_page' %}">Home</li>
+				<li><a href="{% url 'about_page' %}">About</li>
+			</ul>
+		</nav>
+		<div style="width:500px;">
+			<h1>Home page</h1>
+		</div>
+	</div>
+</body>
+</html>
