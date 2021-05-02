@@ -243,3 +243,35 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         +---------------------------------------+
         10 rows in set (0.00 sec)
         modified:   README.MD
+
+#### 8.7.23 MySQL Database - Create superuser
+
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> python manage.py createsuperuser
+
+        mysql> DESC auth_user;
+        +--------------+--------------+------+-----+---------+----------------+
+        | Field        | Type         | Null | Key | Default | Extra          |
+        +--------------+--------------+------+-----+---------+----------------+
+        | id           | int(11)      | NO   | PRI | NULL    | auto_increment |
+        | password     | varchar(128) | NO   |     | NULL    |                |
+        | last_login   | datetime(6)  | YES  |     | NULL    |                |
+        | is_superuser | tinyint(1)   | NO   |     | NULL    |                |
+        | username     | varchar(150) | NO   | UNI | NULL    |                |
+        | first_name   | varchar(150) | NO   |     | NULL    |                |
+        | last_name    | varchar(150) | NO   |     | NULL    |                |
+        | email        | varchar(254) | NO   |     | NULL    |                |
+        | is_staff     | tinyint(1)   | NO   |     | NULL    |                |
+        | is_active    | tinyint(1)   | NO   |     | NULL    |                |
+        | date_joined  | datetime(6)  | NO   |     | NULL    |                |
+        +--------------+--------------+------+-----+---------+----------------+
+        11 rows in set (0.00 sec)
+
+        mysql> SELECT username, email FROM auth_user;
+        +----------+------------------------+
+        | username | email                  |
+        +----------+------------------------+
+        | admin    | ingafter60@admin.com   | <-- modified
+        +----------+------------------------+
+
+        modified:   README.MD
+        modified:   config/__pycache__/urls.cpython-39.pyc
