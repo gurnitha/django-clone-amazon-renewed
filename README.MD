@@ -183,3 +183,8 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         modified:   config/urls.py
         new file:   templates/adboard/login-adboard.html
         modified:   templates/main/shared/navbar.html
+
+#### 8.2.18 Login page - Add basic form for user to login
+
+        modified:   README.MD
+        modified:   templates/adboard/login-adboard.html

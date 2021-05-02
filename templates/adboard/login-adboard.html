@@ -7,6 +7,31 @@
 <!-- Main content -->
 {% block content %}
     <div style="width:500px;">
+
 		<h1>Login Adboard page</h1>
+		
+		<form
+			method=""
+			action="">
+			<div>
+				<label for="email">Username</label>
+				<input 
+					type="text" 
+					name="username"
+					placeholder="username">
+			</div>
+			<div>
+				<label for="email">Passwor</label>
+				<input 
+					type="password" 
+					name="password"
+					placeholder="password">
+			</div>
+
+			<div>
+				<button type="submit">Login</button>
+			</div>
+			
+		</form>
 	</div>
 {% endblock content %}
