@@ -90,3 +90,17 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> python manage.py runserver
 
 #### 5.5.8 Modified README.md
+
+### 6. CREATE DUMMY PAGES
+
+#### 6.1.9 Create Home and About pages
+
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> mkdir templates\main
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> touch templates\main\home.html
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> touch templates\main\about.html
+        modified:   README.MD
+        modified:   app/main/views.py
+        modified:   config/settings.py
+        modified:   config/urls.py
+        new file:   templates/main/about.html
+        new file:   templates/main/home.html
