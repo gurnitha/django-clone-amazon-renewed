@@ -142,3 +142,13 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         new file:   app/adboard/models.py
         new file:   app/adboard/tests.py
         new file:   app/adboard/views.py
+
+#### 7.2.14 Register django app 'adbord' to django project 'config'
+
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> mkdir app/adboard
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> python manage.py startapp adboard  app/adboard
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> python manage.py check
+        System check identified no issues (0 silenced).
+        modified:   README.MD
+        modified:   app/adboard/apps.py
+        modified:   config/settings.py

@@ -42,6 +42,7 @@ INSTALLED_APPS = [
 
     # First party apps
     'app.main.apps.MainConfig',
+    'app.adboard.apps.AdboardConfig',
 ]
 
 MIDDLEWARE = [
