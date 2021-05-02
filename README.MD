@@ -275,3 +275,63 @@ https://github.com/gurnitha/django-clone-amazon-renewed
 
         modified:   README.MD
         modified:   config/__pycache__/urls.cpython-39.pyc
+
+#### 8.8.24 Model - Create CustomUser model
+
+        .Import AbstracUser from django.contrib.auth.models
+        .Create class CustomUser and use AbstractUser
+        .Register AUTH_USER_MODEL to /settings.py
+        .mysql> DROP DATABASE django_clone_amazon_renewed;
+        Query OK, 10 rows affected (0.59 sec)
+        .(venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> python manage.py makemigrations
+        .(venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> python manage.py migrate
+        .mysql> CREATE DATABASE django_clone_amazon_renewed;
+        .mysql> USE django_clone_amazon_renewed;
+        Database changed
+        mysql> SHOW TABLES;
+        +---------------------------------------+
+        | Tables_in_django_clone_amazon_renewed |
+        +---------------------------------------+
+        | adboard_customuser                    |
+        | adboard_customuser_groups             |
+        | adboard_customuser_user_permissions   |
+        | auth_group                            |
+        | auth_group_permissions                |
+        | auth_permission                       |
+        | django_admin_log                      |
+        | django_content_type                   |
+        | django_migrations                     |
+        | django_session                        |
+        +---------------------------------------+
+        10 rows in set (0.00 sec)
+
+        mysql> DESC adboard_customuser;
+        +--------------+--------------+------+-----+---------+----------------+
+        | Field        | Type         | Null | Key | Default | Extra          |
+        +--------------+--------------+------+-----+---------+----------------+
+        | id           | bigint(20)   | NO   | PRI | NULL    | auto_increment |
+        | password     | varchar(128) | NO   |     | NULL    |                |
+        | last_login   | datetime(6)  | YES  |     | NULL    |                |
+        | is_superuser | tinyint(1)   | NO   |     | NULL    |                |
+        | username     | varchar(150) | NO   | UNI | NULL    |                |
+        | first_name   | varchar(150) | NO   |     | NULL    |                |
+        | last_name    | varchar(150) | NO   |     | NULL    |                |
+        | email        | varchar(254) | NO   |     | NULL    |                |
+        | is_staff     | tinyint(1)   | NO   |     | NULL    |                |
+        | is_active    | tinyint(1)   | NO   |     | NULL    |                |
+        | date_joined  | datetime(6)  | NO   |     | NULL    |                |
+        +--------------+--------------+------+-----+---------+----------------+
+        11 rows in set (0.00 sec)
+
+        mysql> SELECT username, email from adboard_customuser;
+        +----------+------------------------+
+        | username | email                  |
+        +----------+------------------------+
+        | admin    | ingafter60@admin.com   | <-- modified
+        +----------+------------------------+
+        1 row in set (0.00 sec)
+
+        modified:   README.MD
+        new file:   app/adboard/migrations/0001_initial.py
+        modified:   app/adboard/models.py
+        modified:   config/settings.py
