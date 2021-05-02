@@ -406,3 +406,11 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         renamed:    templates/adboard/login-admin.html -> templates/adboard/admin_login.html
         modified:   templates/adboard/shared/navbar-admin.html
         modified:   templates/main/shared/navbar.html
+
+#### 8.14.30 Logout - Create logout method, url path and menu logout
+
+        modified:   README.MD
+        modified:   app/adboard/views.py
+        modified:   config/urls.py
+        modified:   templates/adboard/shared/navbar-admin.html
+        modified:   templates/main/shared/navbar.html
