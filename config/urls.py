@@ -19,11 +19,16 @@ from django.urls import path
 # Import views from app/main
 from app.main.views import homePage, aboutPage
 
+# Import views from app/adboard
+from app.adboard.views import adboardHomePage
+
 urlpatterns = [
     
     # PATHS FOR FRONTEND
     path('', homePage, name='home_page'),
     path('about/', aboutPage, name='about_page'),
     
-    path('admin/', admin.site.urls),
+    # PATHS FOR ADBOARD
+    # path('admin/', admin.site.urls),
+    path('admin/home', adboardHomePage, name='home_page_adboard')
 ]

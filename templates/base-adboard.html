@@ -1,0 +1,23 @@
+<!-- templates/base-adboard.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		{% block head_title %}
+		{{block.super}}
+		{% endblock head_title %} Adboard | Clone Amazon
+	</title>
+</head>
+<body style="padding-top:100px;">
+	<div style="width:600px; margin: 0 auto">
+
+		<!-- Navbar -->
+		{% include './adboard/shared/navbar-adboard.html' %}
+
+		<!-- Main content -->
+		{% block content %}
+		{% endblock content %}
+
+	</div>
+</body>
+</html>

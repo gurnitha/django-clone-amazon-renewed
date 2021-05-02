@@ -152,3 +152,18 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         modified:   README.MD
         modified:   app/adboard/apps.py
         modified:   config/settings.py
+
+#### 7.3.15 Create Home page for Adboard and link it with front pages
+
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> mkdir .\templates\adboard
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> mkdir .\templates\adboard\shared
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> touch .\templates\adboard\home-adboard.html
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> touch .\templates\adboard\shared\navbar-adboard.html
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> touch .\templates\base-adboard.html
+        modified:   README.MD
+        modified:   app/adboard/views.py
+        modified:   config/urls.py
+        new file:   templates/adboard/home-adboard.html
+        new file:   templates/adboard/shared/navbar-adboard.html
+        new file:   templates/base-adboard.html
+        modified:   templates/main/shared/navbar.html
