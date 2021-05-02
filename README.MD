@@ -389,3 +389,10 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         modified:   app/adboard/views.py
         modified:   config/urls.py
         modified:   templates/adboard/login-admin.html
+
+#### 8.12.28 Login - Authenticate user login
+
+        modified:   README.MD
+        modified:   app/adboard/views.py
+        modified:   templates/adboard/shared/navbar-admin.html
+        modified:   templates/main/shared/navbar.html
