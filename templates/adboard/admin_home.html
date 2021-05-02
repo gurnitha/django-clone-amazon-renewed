@@ -6,7 +6,10 @@
 
 <!-- Main content -->
 {% block content %}
+	<br>
+	<hr>
     <div style="width:500px;">
+    	<p>User logged in (navbar): {{request.user.username}}</p>
 		<h1>Home Adboard page</h1>
 	</div>
 {% endblock content %}

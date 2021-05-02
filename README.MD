@@ -396,3 +396,13 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         modified:   app/adboard/views.py
         modified:   templates/adboard/shared/navbar-admin.html
         modified:   templates/main/shared/navbar.html
+
+#### 8.13.29 Login - Showing logged in username on the menu
+
+        modified:   README.MD
+        modified:   app/adboard/views.py
+        modified:   config/urls.py
+        renamed:    templates/adboard/home-admin.html -> templates/adboard/admin_home.html
+        renamed:    templates/adboard/login-admin.html -> templates/adboard/admin_login.html
+        modified:   templates/adboard/shared/navbar-admin.html
+        modified:   templates/main/shared/navbar.html

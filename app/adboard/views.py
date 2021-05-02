@@ -1,6 +1,6 @@
 # app/adboard/views.py
 from django.shortcuts import render
-from django.contrib.auth import authenticate
+from django.contrib.auth import authenticate, login
 from django.contrib import messages
 from django.http import HttpResponseRedirect
 from django.urls import reverse
@@ -8,12 +8,12 @@ from django.urls import reverse
 # Create your views here.
 
 # homeAdmin to render admin home page
-def homeAdmin(request):
-	return render(request, 'adboard/home-admin.html')
+def adminHome(request):
+	return render(request, 'adboard/admin_home.html')
 
 # loginAdmin to render login page
-def loginAdmin(request):
-	return render(request, 'adboard/login-admin.html')
+def adminLogin(request):
+	return render(request, 'adboard/admin_login.html')
 
 # Process and authenticate user login
 def adminLoginProcess(request):
@@ -29,10 +29,10 @@ def adminLoginProcess(request):
 	# If user exist in db
 	if user is not None:
 		login(request=request, user=user)
-		return HttpResponseRedirect(reverse('home_admin'))
+		return HttpResponseRedirect(reverse('admin_home'))
 
 	# If user not exist in db
 	else:
 		messages.error(request, 'Login error! Invalid login detail!')
-		return HttpResponseRedirect(reverse('login_admin'))
+		return HttpResponseRedirect(reverse('admin_login'))
 

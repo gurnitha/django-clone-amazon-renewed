@@ -21,8 +21,8 @@ from app.main.views import homePage, aboutPage
 
 # Import views from app/adboard
 from app.adboard.views import(
-    homeAdmin,
-    loginAdmin,
+    adminHome,
+    adminLogin,
     adminLoginProcess)
 
 urlpatterns = [
@@ -33,7 +33,7 @@ urlpatterns = [
     
     # PATHS FOR ADBOARD
     # path('admin/', admin.site.urls),
-    path('admin/home', homeAdmin, name='home_admin'),
-    path('admin/login', loginAdmin, name='login_admin'),
-    path('admin/login_process', loginAdmin, name='login_admin_process'),
+    path('admin/home', adminHome, name='admin_home'),
+    path('admin/login', adminLogin, name='admin_login'),
+    path('admin/login_process', adminLoginProcess, name='admin_login_process'),
 ]
