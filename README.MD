@@ -367,3 +367,14 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         | user_type    | varchar(225) | NO   |     | NULL    |                | <-- newly added field
         +--------------+--------------+------+-----+---------+----------------+
         12 rows in set (0.00 sec)
+
+#### 8.10.26 Modified files name
+
+        modified:   README.MD
+        modified:   app/adboard/views.py
+        modified:   config/urls.py
+        renamed:    templates/adboard/home-adboard.html -> templates/adboard/home-admin.html
+        renamed:    templates/adboard/login-adboard.html -> templates/adboard/login-admin.html
+        renamed:    templates/adboard/shared/navbar-adboard.html -> templates/adboard/shared/navbar-admin.html
+        renamed:    templates/base-adboard.html -> templates/base-admin.html
+        modified:   templates/main/shared/navbar.html
