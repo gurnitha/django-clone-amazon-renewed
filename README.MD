@@ -221,3 +221,25 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         modified:   README.MD
         (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> python manage.py makemigrations
         (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> python manage.py migrate
+
+#### 8.6.22 MySQL Database - Show the created tables
+
+        mysql> USE django_clone_amazon_renewed;
+        Database changed
+        mysql> SHOW tables;
+        +---------------------------------------+
+        | Tables_in_django_clone_amazon_renewed |
+        +---------------------------------------+
+        | auth_group                            |
+        | auth_group_permissions                |
+        | auth_permission                       |
+        | auth_user                             |
+        | auth_user_groups                      |
+        | auth_user_user_permissions            |
+        | django_admin_log                      |
+        | django_content_type                   |
+        | django_migrations                     |
+        | django_session                        |
+        +---------------------------------------+
+        10 rows in set (0.00 sec)
+        modified:   README.MD
