@@ -173,3 +173,13 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         modified:   README.MD
         modified:   app/adboard/views.py
         modified:   config/urls.py
+
+### 8. ADBOARD - LOG IN AND LOG OUT
+
+#### 8.1.17 Create login page: views, template and path
+
+        modified:   README.MD
+        modified:   app/adboard/views.py
+        modified:   config/urls.py
+        new file:   templates/adboard/login-adboard.html
+        modified:   templates/main/shared/navbar.html

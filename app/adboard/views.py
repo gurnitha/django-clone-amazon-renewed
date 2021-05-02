@@ -5,3 +5,6 @@ from django.shortcuts import render
 
 def homePageAdboard(request):
 	return render(request, 'adboard/home-adboard.html')
+
+def loginPageAdboard(request):
+	return render(request, 'adboard/login-adboard.html')

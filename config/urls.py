@@ -20,7 +20,9 @@ from django.urls import path
 from app.main.views import homePage, aboutPage
 
 # Import views from app/adboard
-from app.adboard.views import homePageAdboard
+from app.adboard.views import(
+    homePageAdboard,
+    loginPageAdboard)
 
 urlpatterns = [
     
@@ -30,5 +32,6 @@ urlpatterns = [
     
     # PATHS FOR ADBOARD
     # path('admin/', admin.site.urls),
-    path('admin/home', homePageAdboard, name='home_page_adboard')
+    path('admin/home', homePageAdboard, name='home_page_adboard'),
+    path('admin/login', loginPageAdboard, name='login_page_adboard'),
 ]
