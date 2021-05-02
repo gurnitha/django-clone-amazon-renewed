@@ -8,15 +8,15 @@ https://github.com/gurnitha/django-clone-amazon-renewed
 
 #### 1.1.1 Create project folders
 
-        ... DJANGO-CLONE-AMAZON-RENEWED> mkdir src
-        ... DJANGO-CLONE-AMAZON-RENEWED> mkdir src
-        ... DJANGO-CLONE-AMAZON-RENEWED> cd src
-        ... DJANGO-CLONE-AMAZON-RENEWED\src> touch .gitignore
-        ... DJANGO-CLONE-AMAZON-RENEWED\src> touch README.md
-        ... DJANGO-CLONE-AMAZON-RENEWED\src> git init
-        ... DJANGO-CLONE-AMAZON-RENEWED\src> git add .
-        ... DJANGO-CLONE-AMAZON-RENEWED\src> git commit -m "1.1.1 Create project folders"
-        ... DJANGO-CLONE-AMAZON-RENEWED\src> tree /f
+        ...\DJANGO-CLONE-AMAZON-RENEWED> mkdir src
+        ...\DJANGO-CLONE-AMAZON-RENEWED> mkdir src
+        ...\DJANGO-CLONE-AMAZON-RENEWED> cd src
+        ...\DJANGO-CLONE-AMAZON-RENEWED\src> touch .gitignore
+        ...\DJANGO-CLONE-AMAZON-RENEWED\src> touch README.md
+        ...\DJANGO-CLONE-AMAZON-RENEWED\src> git init
+        ...\DJANGO-CLONE-AMAZON-RENEWED\src> git add .
+        ...\DJANGO-CLONE-AMAZON-RENEWED\src> git commit -m "1.1.1 Create project folders"
+        ...\DJANGO-CLONE-AMAZON-RENEWED\src> tree /f
             ...
             E:.
                 .gitignore
@@ -37,7 +37,7 @@ https://github.com/gurnitha/django-clone-amazon-renewed
 
 #### 3.1.4 Create venv named it 'venv3932'
 
-        ... DJANGO-CLONE-AMAZON-RENEWED\src> python -m venv venv3932
+        ...\DJANGO-CLONE-AMAZON-RENEWED\src> python -m venv venv3932
         modified:   .gitignore
         modified:   README.MD
 
@@ -45,7 +45,7 @@ https://github.com/gurnitha/django-clone-amazon-renewed
 
 #### 4.1.5 Install django v3.2
 
-        ...DJANGO-CLONE-AMAZON-RENEWED\src> .\venv3932\scripts\activate
+        ...\DJANGO-CLONE-AMAZON-RENEWED\src> .\venv3932\scripts\activate
         (venv3932) ...DJANGO-CLONE-AMAZON-RENEWED\src> python -m pip install django==3.2
         (venv3932) ...DJANGO-CLONE-AMAZON-RENEWED\src> python -m pip install --upgrade pip
         modified:   README.MD
@@ -88,3 +88,5 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> python manage.py check
         System check identified no issues (0 silenced).
         (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> python manage.py runserver
+
+#### 5.5.8 Modified README.md
