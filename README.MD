@@ -335,3 +335,35 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         new file:   app/adboard/migrations/0001_initial.py
         modified:   app/adboard/models.py
         modified:   config/settings.py
+
+#### 8.9.25 Model - add user_type field to adboard_customuser model/tabel
+
+        .There are 4 types of user: Admin(1), Staff(2), Merchant(3), Customer(4)
+        .In CustomUser:
+        > Define user_type_choices for the 4 types of user
+        > Add user_type field to CustomUser
+        >> Use Admin as default user
+        >> max_length of the user_type field
+
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> python manage.py makemigrations
+        - Add field user_type to customuser
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> python manage.py migrate
+
+        mysql> DESC adboard_customuser;
+        +--------------+--------------+------+-----+---------+----------------+
+        | Field        | Type         | Null | Key | Default | Extra          |
+        +--------------+--------------+------+-----+---------+----------------+
+        | id           | bigint(20)   | NO   | PRI | NULL    | auto_increment |
+        | password     | varchar(128) | NO   |     | NULL    |                |
+        | last_login   | datetime(6)  | YES  |     | NULL    |                |
+        | is_superuser | tinyint(1)   | NO   |     | NULL    |                |
+        | username     | varchar(150) | NO   | UNI | NULL    |                |
+        | first_name   | varchar(150) | NO   |     | NULL    |                |
+        | last_name    | varchar(150) | NO   |     | NULL    |                |
+        | email        | varchar(254) | NO   |     | NULL    |                |
+        | is_staff     | tinyint(1)   | NO   |     | NULL    |                |
+        | is_active    | tinyint(1)   | NO   |     | NULL    |                |
+        | date_joined  | datetime(6)  | NO   |     | NULL    |                |
+        | user_type    | varchar(225) | NO   |     | NULL    |                | <-- newly added field
+        +--------------+--------------+------+-----+---------+----------------+
+        12 rows in set (0.00 sec)
