@@ -49,3 +49,17 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         (venv3932) ...DJANGO-CLONE-AMAZON-RENEWED\src> python -m pip install django==3.2
         (venv3932) ...DJANGO-CLONE-AMAZON-RENEWED\src> python -m pip install --upgrade pip
         modified:   README.MD
+
+### 5. CREATING DJANGO PROJECT AND APP
+
+#### 5.1.6 Create django project called 'config'
+
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> django-admin startproject config .
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> python manage.py runserver
+        modified:   README.MD
+        new file:   config/__init__.py
+        new file:   config/asgi.py
+        new file:   config/settings.py
+        new file:   config/urls.py
+        new file:   config/wsgi.py
+        new file:   manage.py
