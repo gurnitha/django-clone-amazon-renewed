@@ -127,3 +127,18 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         modified:   templates/base.html
         modified:   templates/main/about.html
         modified:   templates/main/home.html
+
+### 7. ADBORD (ADMIN DASHBOARD)
+
+#### 7.1.13 Create django app called 'adbord'
+
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> mkdir app/adboard
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> python manage.py startapp adbord app/adboard
+        modified:   README.MD
+        new file:   app/adboard/__init__.py
+        new file:   app/adboard/admin.py
+        new file:   app/adboard/apps.py
+        new file:   app/adboard/migrations/__init__.py
+        new file:   app/adboard/models.py
+        new file:   app/adboard/tests.py
+        new file:   app/adboard/views.py
