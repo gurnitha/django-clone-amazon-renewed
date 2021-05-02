@@ -79,3 +79,12 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         new file:   app/main/views.py
 
 #### 5.3.7 Modified README.md
+
+#### 5.4.8 Install django app 'main' to django project 'config'
+
+        modified:   README.MD
+        modified:   app/main/apps.py
+        modified:   config/settings.py
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> python manage.py check
+        System check identified no issues (0 silenced).
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> python manage.py runserver
