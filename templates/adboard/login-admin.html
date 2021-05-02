@@ -11,8 +11,9 @@
 		<h1>Login Adboard page</h1>
 		
 		<form
-			method=""
-			action="">
+			method="POST"
+			action="{% url 'login_admin_process' %}">
+			{% csrf_token %}
 			<div>
 				<label for="email">Username</label>
 				<input 
