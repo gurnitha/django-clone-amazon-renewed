@@ -1,0 +1,19 @@
+<!-- templates/main/base.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clone Amazon</title>
+</head>
+<body style="padding-top:100px;">
+	<div style="width:600px; margin: 0 auto">
+
+		<!-- Navbar -->
+		{% include './main/shared/navbar.html' %}
+
+		<!-- Main content -->
+		{% block content %}
+		{% endblock content %}
+
+	</div>
+</body>
+</html>

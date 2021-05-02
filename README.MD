@@ -110,3 +110,13 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         modified:   README.MD
         modified:   templates/main/about.html
         modified:   templates/main/home.html
+
+#### 6.3.11 Using template inheritance (base template)
+
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> touch templates\base.html
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> mkdir templates\main\shared
+        modified:   README.MD
+        new file:   templates/base.html
+        modified:   templates/main/about.html
+        modified:   templates/main/home.html
+        new file:   templates/main/shared/navbar.html

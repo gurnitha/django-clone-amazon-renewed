@@ -1,20 +1,10 @@
 <!-- templates/main/about.html -->
-<!DOCTYPE html>
-<html>
-<head>
-	<title>About | Clone Amazon</title>
-</head>
-<body style="padding-top:100px;">
-	<div style="width:600px; margin: 0 auto">
-		<nav style="width:500px;">
-			<ul>
-				<li><a href="{% url 'home_page' %}">Home</li>
-				<li><a href="{% url 'about_page' %}">About</li>
-			</ul>
-		</nav>
-		<div style="width:500px;">
-			<h1>About page</h1>
-		</div>
+{% extends "../base.html" %}
+
+
+<!-- Main content -->
+{% block content %}
+    <div style="width:500px;">
+		<h1>About page</h1>
 	</div>
-</body>
-</html>
+{% endblock content %}
