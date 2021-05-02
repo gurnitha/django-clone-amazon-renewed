@@ -215,3 +215,9 @@ https://github.com/gurnitha/django-clone-amazon-renewed
 
         modified:   README.MD
         modified:   config/settings.py
+
+#### 8.5.21 MySQL Database - Create tables to db
+
+        modified:   README.MD
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> python manage.py makemigrations
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> python manage.py migrate
