@@ -32,7 +32,13 @@ https://github.com/gurnitha/django-clone-amazon-renewed
 
 #### 2.2.3 Modified README.md 
 
+### 3. CREATE VIRTUAL ENVIRONMENT
 
+#### 3.1.4 Create venv named it 'venv3932'
+
+        ... DJANGO-CLONE-AMAZON-RENEWED\src> python -m venv venv3932
+        modified:   .gitignore
+        modified:   README.MD
 
 
 
