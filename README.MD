@@ -1,6 +1,7 @@
 ## CLONE AMAZON USING DJANGO
 
 ### GITHUB REPOSITORY
+
 https://github.com/gurnitha/django-clone-amazon-renewed
 
 ### 1. BASICS SETUP
@@ -30,7 +31,7 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         https://github.com/gurnitha/django-clone-amazon-renewed
         modified:   README.MD
 
-#### 2.2.3 Modified README.md 
+#### 2.2.3 Modified README.md
 
 ### 3. CREATE VIRTUAL ENVIRONMENT
 
@@ -40,146 +41,11 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         modified:   .gitignore
         modified:   README.MD
 
+### 4. INSTALL DJANGO
 
+#### 4.1.5 Install django v3.2
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        ...DJANGO-CLONE-AMAZON-RENEWED\src> .\venv3932\scripts\activate
+        (venv3932) ...DJANGO-CLONE-AMAZON-RENEWED\src> python -m pip install django==3.2
+        (venv3932) ...DJANGO-CLONE-AMAZON-RENEWED\src> python -m pip install --upgrade pip
+        modified:   README.MD
