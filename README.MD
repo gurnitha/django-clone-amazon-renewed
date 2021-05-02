@@ -196,3 +196,22 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         mysql> CREATE DATABASE django_clone_amazon_renewed;
         Query OK, 1 row affected (0.00 sec)
         modified:   README.MD
+
+#### 8.4.20 MySQL Database - Connect the database
+
+        (venv3932) ...\DJANGO-CLONE-AMAZON-RENEWED\src> python -m pip install mysqlclient
+        DATABASES = {
+                'default': {
+                        'ENGINE': 'django.db.backends.mysql',
+                        'NAME': 'django_clone_amazon_renewed',
+                        'USER': 'root',
+                        'PASSWORD': '',
+                        'HOST': 'localhost',
+                        'PORT': 3306
+                }
+        }
+        NOTE:
+        Remember the db creadentials sequance (NAME, USER, PASSWORD, HOST, PORT)
+
+        modified:   README.MD
+        modified:   config/settings.py
