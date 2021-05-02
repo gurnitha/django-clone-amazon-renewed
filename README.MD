@@ -120,3 +120,10 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         modified:   templates/main/about.html
         modified:   templates/main/home.html
         new file:   templates/main/shared/navbar.html
+
+#### 6.4.12 Adding semi-dynamic head page title
+
+        modified:   README.MD
+        modified:   templates/base.html
+        modified:   templates/main/about.html
+        modified:   templates/main/home.html
