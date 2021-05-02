@@ -167,3 +167,9 @@ https://github.com/gurnitha/django-clone-amazon-renewed
         new file:   templates/adboard/shared/navbar-adboard.html
         new file:   templates/base-adboard.html
         modified:   templates/main/shared/navbar.html
+
+#### 7.4.16 re-naming views and path of the adboardHomePage to homePageAdboard
+
+        modified:   README.MD
+        modified:   app/adboard/views.py
+        modified:   config/urls.py

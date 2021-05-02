@@ -3,5 +3,5 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def adboardHomePage(request):
+def homePageAdboard(request):
 	return render(request, 'adboard/home-adboard.html')
